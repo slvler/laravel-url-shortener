@@ -14,6 +14,10 @@ This package provides a convenient wrapper to the [Cuttly API](https://cutt.ly/a
 
 To install this package tou can use composer:
 
+```bash
+    composer require slvler/cuttly
+```
+
 
 ## Usage
 
