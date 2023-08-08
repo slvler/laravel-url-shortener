@@ -50,7 +50,7 @@
             "@php artisan key:generate --ansi"
         ],
         "test": "vendor/bin/phpunit tests",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "extra": {
         "laravel": {
