@@ -4,6 +4,7 @@
 [![Latest Stable Version](http://poser.pugx.org/slvler/cuttly/v)](https://packagist.org/packages/slvler/cuttly) 
 ![Latest Unstable Version](http://poser.pugx.org/slvler/cuttly/v/unstable)
 [![License](http://poser.pugx.org/slvler/balldontlie-laravel/license)](https://packagist.org/packages/slvler/balldontlie-laravel)
+[![Total Downloads](http://poser.pugx.org/slvler/cuttly/downloads)](https://packagist.org/packages/slvler/cuttly)
 
 This package provides a convenient wrapper to the [Cuttly API](https://cutt.ly/api-documentation/regular-api)  for Laravel applications.
 
