@@ -1,10 +1,10 @@
 # slvler - Cuttly Service
 
 [![tests](https://github.com/slvler/laravel-url-shortener/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/laravel-url-shortener)
-[![Latest Stable Version](http://poser.pugx.org/slvler/cuttly/v)](https://packagist.org/packages/slvler/cuttly) 
-![Latest Unstable Version](http://poser.pugx.org/slvler/cuttly/v/unstable)
-[![License](http://poser.pugx.org/slvler/balldontlie-laravel/license)](https://packagist.org/packages/slvler/balldontlie-laravel)
-[![Total Downloads](http://poser.pugx.org/slvler/cuttly/downloads)](https://packagist.org/packages/slvler/cuttly)
+[![Latest Stable Version](https://poser.pugx.org/slvler/cuttly/v)](https://packagist.org/packages/slvler/cuttly) 
+![Latest Unstable Version](https://poser.pugx.org/slvler/cuttly/v/unstable)
+[![License](https://poser.pugx.org/slvler/balldontlie-laravel/license)](https://packagist.org/packages/slvler/balldontlie-laravel)
+[![Total Downloads](https://poser.pugx.org/slvler/cuttly/downloads)](https://packagist.org/packages/slvler/cuttly)
 
 This package provides a convenient wrapper to the [Cuttly API](https://cutt.ly/api-documentation/regular-api)  for Laravel applications.
 
