@@ -1,4 +1,4 @@
-# slvler - Cuttly Service
+# Cuttly Service 
 
 [![tests](https://github.com/slvler/laravel-url-shortener/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/laravel-url-shortener)
 [![Latest Stable Version](https://poser.pugx.org/slvler/cuttly/v)](https://packagist.org/packages/slvler/cuttly) 
@@ -18,22 +18,19 @@ This package provides a convenient wrapper to the [Cuttly API](https://cutt.ly/a
 To install this package tou can use composer:
 
 ```bash
-    composer require slvler/cuttly
+composer require slvler/cuttly
 ```
-
 
 ## Usage
 
 #### Find player
-``` php
-    $data = [
-        'short' => 'google.com'
-        ];
+```php
+$data['short'] = 'google.com';
 
-    Cuttly::short($data);
+Cuttly::short($data);
 ```
 URL Shortener:
-```
+```json
 {
   "url": {
     "status": 7,
@@ -45,36 +42,29 @@ URL Shortener:
 }
 ```
 
-
-
 #### Edit Url
-``` php
-    $data = [
-       'edit' => 'cutt.ly/LwdCoBmo'
-       ];
+```php
+$data['edit'] = 'cutt.ly/LwdCoBmo';
 
-    Cuttly::edit($data);
+Cuttly::edit($data);
 ```
 Edit URL:
-```
+```json
 {
   "url": {
-    "status": 1,
+    "status": 1
   }
 }
 ```
 
 #### Find games
-``` php
+```php
+$data['stats'] = 'cutt.ly/ewdVijlY';
 
-    $data = [
-       'stats' => 'cutt.ly/ewdVijlY'
-       ];
-
-    Cuttly::stats($data);
+Cuttly::stats($data);
 ```
 URL Stats:
-```
+```json
 {
   "stats": {
     "status": 1,
@@ -90,30 +80,22 @@ URL Stats:
     "googlePlus": 0,
     "linkedin": 0,
     "rest": 0,
-    "devices": {
-      
-    },
-    "refs": {
-      
-    },
+    "devices": {},
+    "refs": {},
     "bots": "Insufficient subscription level"
   }
 }
 ```
 
-
-
-
-
 ## Testing
 
 ```bash
-    composer test
+composer test
 ```
 
 ## Credits
 
--   [slvler](https://github.com/slvler)
+- [slvler](https://github.com/slvler)
 
 ## License
 
