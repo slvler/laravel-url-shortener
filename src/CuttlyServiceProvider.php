@@ -1,12 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Slvler\Cuttly;
 
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Container\Container;
-
-
+use Illuminate\Support\ServiceProvider;
 
 class CuttlyServiceProvider extends ServiceProvider
 {
@@ -18,6 +17,7 @@ class CuttlyServiceProvider extends ServiceProvider
             ], 'config');
         }
     }
+
     public function register()
     {
         $this->mergeConfigFrom(__DIR__.'/../config/cuttly.php', 'cuttly');

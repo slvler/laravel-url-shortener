@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Slvler\Cuttly;
 
 use GuzzleHttp\Client;
@@ -8,10 +10,11 @@ class CuttlyApiWrapper
 {
     private Client $httpClient;
 
-    public function __construct(array $parameters)
+    public function __construct($baseUrl)
     {
-        $this->httpClient = new Client(
-            ['base_uri' => $parameters['base_uri']]
+        $this->httpClient = new Client([
+            'base_uri' => $baseUrl,
+        ]
         );
     }
 

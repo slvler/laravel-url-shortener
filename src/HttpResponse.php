@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Slvler\Cuttly;
 
 class HttpResponse
@@ -13,13 +15,13 @@ class HttpResponse
 
     public function getBody(): string
     {
-        return (string)$this->response->getBody();
+        return (string) $this->response->getBody();
     }
 
     public function toObject(): object
     {
-        $body = (string)$this->response->getBody();
+        $body = (string) $this->response->getBody();
 
-        return json_decode($body) ?? (object)[];
+        return json_decode($body) ?? (object) [];
     }
 }

@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Slvler\Cuttly\Facades;
 
 use Illuminate\Support\Facades\Facade;

@@ -9,20 +9,16 @@
 This package provides a convenient wrapper to the [Cuttly API](https://cutt.ly/api-documentation/regular-api)  for Laravel applications.
 
 ## Requirements
-
-- PHP 8.0+
-- Laravel 9.x
+- PHP 8.1
+- Laravel 9.x | 10.x
 
 ## Installation
-
 To install this package tou can use composer:
-
 ```bash
 composer require slvler/cuttly
 ```
 
 ## Usage
-
 #### Find player
 ```php
 $data['short'] = 'google.com';
@@ -88,17 +84,14 @@ URL Stats:
 ```
 
 ## Testing
-
 ```bash
 composer test
 ```
 
 ## Credits
-
 - [slvler](https://github.com/slvler)
 
 ## License
-
 The MIT License (MIT). Please see [License File](https://github.com/slvler/balldontlie-service/blob/main/LICENSE.md) for more information.
 
 ## Contributing
