@@ -1,8 +1,7 @@
 # Cuttly Service 
 
 [![tests](https://github.com/slvler/laravel-url-shortener/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/laravel-url-shortener)
-[![Latest Stable Version](https://poser.pugx.org/slvler/cuttly/v)](https://packagist.org/packages/slvler/cuttly) 
-![Latest Unstable Version](https://poser.pugx.org/slvler/cuttly/v/unstable)
+[![Latest Stable Version](https://img.shields.io/packagist/v/slvler/cuttly.svg)](https://packagist.org/packages/slvler/cuttly)
 [![License](https://poser.pugx.org/slvler/balldontlie-laravel/license)](https://packagist.org/packages/slvler/balldontlie-laravel)
 [![Total Downloads](https://poser.pugx.org/slvler/cuttly/downloads)](https://packagist.org/packages/slvler/cuttly)
 
