@@ -13,12 +13,12 @@ class HttpResponse
         $this->response = $response;
     }
 
-    public function getBody(): string
+    public function getBody()
     {
         return (string) $this->response->getBody();
     }
 
-    public function toObject(): object
+    public function toObject()
     {
         $body = (string) $this->response->getBody();
 

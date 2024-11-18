@@ -20,7 +20,7 @@ class Cuttly extends CuttlyApiWrapper
             throw MissingApiKey::create();
         }
 
-        $baseURL = $app['config']->get('cuttly.api_key');
+        $baseURL = $app['config']->get('cuttly.base_uri');
 
         if (empty($baseURL) || ! isset($baseURL)) {
             throw new InvalidArgumentException('Invalid Cuttly API base URL.');
